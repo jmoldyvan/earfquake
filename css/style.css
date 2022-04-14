@@ -1,0 +1,136 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background: url('/img/crayon-earth.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 2rem 0
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.column1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0rem;
+  position: static;
+}
+
+.column2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0rem;
+
+}
+
+.the_input {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-weight: 900;
+}
+
+.container h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+}
+
+button {
+  width: 50%;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+h3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 2rem
+}
+
+img {
+  max-width: 900px;
+  max-height: 700px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
